@@ -8,6 +8,6 @@ class CounterProvider with ChangeNotifier {
   //setter
   void increment() {
     _counter++;
-    notifyListeners();
+    notifyListeners(); //test command
   }
 }
